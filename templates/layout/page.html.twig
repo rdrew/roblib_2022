@@ -1,0 +1,58 @@
+<div class="l-main">
+
+<!--___________________Topnav___________________-->
+
+<div class="topnav__wrapper">
+  <div class="topnav__container">
+        {% include '@rooms/includes/topbar-mobile.html.twig'  %}
+        {% include '@rooms/includes/topnav.html.twig'  %}
+  </div>
+</div>
+
+
+
+
+<!--___________________Header___________________-->
+
+<header class="header__wrapper" role="banner">
+    {% include '@rooms/includes/header.html.twig'  %}
+</header>
+
+<!--___________________menubar___________________-->
+
+<div class="menubar__wrapper">
+    {% include '@rooms/includes/menubar.html.twig'  %}
+</div>
+<!--___________________sysmessages___________________-->
+
+<div class="sysmessages__container">
+    {% include '@rooms/includes/sysmessages.html.twig'  %}
+</div>
+
+<!--___________________Content___________________-->
+
+<div class="content__container">
+    {% include '@rooms/includes/content.html.twig'  %}
+<!--___________________sidebar-left___________________-->
+
+    {% include '@rooms/includes/sidebar-left.html.twig'  %}
+<!--___________________sidebar-right___________________-->
+
+    {% include '@rooms/includes/sidebar-right.html.twig'  %}
+</div>
+
+
+<!--___________________prefooter___________________-->
+
+<div class="prefooter__container">
+    {% include '@rooms/includes/prefooter.html.twig'  %}
+</div>
+<!--___________________Footer___________________-->
+
+    {% include '@rooms/includes/footer.html.twig'  %}
+
+<!--___________________offcanvas___________________-->
+
+{% include '@rooms/includes/offcanvas.html.twig'  %}
+
+</div>
