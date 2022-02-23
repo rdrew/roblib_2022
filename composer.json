@@ -15,5 +15,6 @@
     ],
 
     "require": {
+        "drupal/components": "^2.4"
     }
 }
